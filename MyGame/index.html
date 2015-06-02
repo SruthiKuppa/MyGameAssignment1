@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>The Dragon!</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="impress">
+        <div id="intro" class="step slide">
+            <div class="slide-text">
+              
+        <h4>YOU ARE INTO A NEW HOUSE....</h4>
+        <h4>YOU ARE NEW TO THE PLACE.THERE IS ONE TREASURE CHEST TO BE FOUND IN THE ROOM. </h4>
+        <h4>YOU SHOULD FIND THE TREASURE CHEST.</h4>
+        <h4>YOU WILL LOSE THE GAME IF YOU CANNOT REACH THE EXACT ROOM.....SO FIND THE TREASURE</h4>
+        <br />
+        <h4>WHICH ROOM WOULD YOU LIKE TO ENTER FIRST???</h4>
+        <p><a href="#door1">DOOR 1</a></p>
+        <p>or</p>
+        <p><a href="#door2">DOOR 2</a></p>
+    </div>
+    </div>
+
+    <div id="door1" class="step slide" data-x="1500">
+        <div class="slide-text">
+            <p>YOU ARE IN ROOM1</p>
+            <p>DOOR OPENS SLOWLY....</p>
+            <p>YOU PEEK IN FOR THE TREASURE...</p>
+            <br />
+            <p>IT IS A BIG ROOM AND HAS NO TREASURE!!</p>
+        </div>
+        <div class="menu">
+            <a href="#intro">START OVER</a>
+            <a href="#nextlevelA">let's try...Next Door</a>
+        </div>
+    </div>
+    <div id="door2" class="step slide" data-x="-1500">
+        <div class="slide-text">
+            <p>YOU OPENED THE DOOR 2 ...</p>
+            <p>IT IS A SMALL SCARY ROOM</p>
+            <p>DO YOU FIND THE TREASURE???? NO KEEP TRYING...</p>
+        </div>
+        <div class="menu">
+            <a href="#intro">START OVER</a>
+            <a href="#nextlevelA">let's try...Next Door</a>
+        </div>
+    </div>
+
+
+        </div>
+    </div>
+    <!-- JavaScript Section -->
+
+    <script src="scripts/impress.js"></script>
+    <script>impress().init();</script>
+</body>
+</html>
