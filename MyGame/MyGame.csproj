@@ -67,6 +67,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\bg.jpg" />
+    <Content Include="assets\images\P.jpg" />
+    <Content Include="assets\images\T.jpg" />
     <Content Include="css\main.css" />
     <Content Include="css\reset.css" />
     <Content Include="index.html" />
@@ -75,9 +78,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="assets\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="scripts\impress.ts" />
   </ItemGroup>
